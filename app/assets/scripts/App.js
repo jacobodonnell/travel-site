@@ -1,1 +1,1 @@
-alert('Hello, get read to die');
+import '../styles/styles.css';
