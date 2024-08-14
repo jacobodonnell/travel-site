@@ -14,10 +14,10 @@
     font-weight: 300;
     color: $mainBlue;
     margin: 0;
-    font-size: 1.1rem;
+    font-size: 1.8rem;
 
     @mixin atSmall {
-      font-size: 2rem;
+      font-size: 2.4rem;
     }
     @mixin atMedium {
       font-size: 3.2rem;
@@ -34,6 +34,12 @@
     margin: 0;
 
     @mixin atSmall {
+      font-size: 1.7rem;
+    }
+    @mixin atMedium {
+      font-size: 2.2rem;
+    }
+    @mixin atLarge {
       font-size: 2.9rem;
     }
   }
