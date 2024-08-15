@@ -2,4 +2,12 @@
   padding-inline: 18px;
   max-width: 1200px;
   margin-inline: auto;
+
+  &--medium {
+    max-width: 976px;
+  }
+
+  .wrapper {
+    padding-inline: 0;
+  }
 }
