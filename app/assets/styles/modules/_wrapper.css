@@ -1,7 +1,8 @@
 .wrapper {
   padding-inline: 18px;
-  max-width: 1200px;
+  max-width: 1236px;
   margin-inline: auto;
+  overflow: hidden;
 
   &--medium {
     max-width: 976px;
@@ -9,5 +10,13 @@
 
   .wrapper {
     padding-inline: 0;
+  }
+
+  &--b-margin {
+    margin-bottom: 1rem;
+
+    @mixin atSmall {
+      margin-bottom: 3.875rem;
+    }
   }
 }
