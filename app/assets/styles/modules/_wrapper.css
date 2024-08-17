@@ -8,6 +8,22 @@
     max-width: 976px;
   }
 
+  &--no-padding-until-medium {
+    padding-inline: 0;
+
+    @mixin atMedium {
+      padding-inline: 18px;
+    }
+  }
+
+  &--no-padding-until-large {
+    padding-inline: 0;
+
+    @mixin atLarge {
+      padding-inline: 18px;
+    }
+  }
+
   .wrapper {
     padding-inline: 0;
   }
