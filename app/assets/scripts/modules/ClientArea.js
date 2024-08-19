@@ -23,11 +23,11 @@ class ClientArea {
     )
       .then(response => {
         this.form.remove();
-        this.contentArea.innerHTML = response.data();
+        this.contentArea.innerHTML = response.data;
       })
       .catch(err => {
         console.log(err);
-        this.contentArea.innerHTML = `<p class="client-area__error">That secret phrase is not correct. Try</p>`;
+        this.contentArea.innerHTML = `<p class="client-area__error">That secret phrase is not correct. Try again.</p>`;
         this.field.value = '';
         this.field.focus();
       });
